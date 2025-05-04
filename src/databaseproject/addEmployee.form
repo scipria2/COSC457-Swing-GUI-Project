@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JDialogFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="2"/>
+    <Property name="title" type="java.lang.String" value="Add Employee"/>
+    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+      <Color blue="33" green="33" red="33" type="rgb"/>
+    </Property>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Component id="certificationLabel" min="-2" pref="92" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <Component id="roleLabel" max="32767" attributes="0"/>
+                      <EmptySpace min="-2" pref="271" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Component id="addEmployeeTitle" alignment="0" max="32767" attributes="0"/>
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" attributes="0">
+                                      <Group type="103" groupAlignment="1" attributes="0">
+                                          <Component id="employeeLabel" alignment="0" max="32767" attributes="0"/>
+                                          <Component id="nameLabel" max="32767" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" attributes="0">
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="contactinfoLabel" pref="91" max="32767" attributes="0"/>
+                                          <Component id="armedLabel" max="32767" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace min="-2" pref="35" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" attributes="0">
+                                      <Component id="hourlyRateLabel" max="32767" attributes="0"/>
+                                      <EmptySpace min="-2" pref="39" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="savebtn" min="-2" pref="104" max="-2" attributes="0"/>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Component id="cancelbtn" pref="94" max="32767" attributes="0"/>
+                                  </Group>
+                                  <Component id="nameTF" max="32767" attributes="0"/>
+                                  <Component id="certificationTF" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="empIdTF" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="contactInfoTF" max="32767" attributes="0"/>
+                                  <Component id="armedTF" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="hourlyRateTF" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="roleTF" alignment="0" max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="-2" pref="93" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace min="-2" max="-2" attributes="0"/>
+              <Component id="addEmployeeTitle" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="23" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="employeeLabel" alignment="3" max="32767" attributes="0"/>
+                  <Component id="empIdTF" alignment="3" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="nameLabel" alignment="3" max="32767" attributes="0"/>
+                  <Component id="nameTF" alignment="3" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="contactinfoLabel" alignment="3" max="32767" attributes="0"/>
+                  <Component id="contactInfoTF" alignment="3" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="armedLabel" alignment="3" max="32767" attributes="0"/>
+                  <Component id="armedTF" alignment="3" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="hourlyRateLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="hourlyRateTF" alignment="3" pref="25" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="roleLabel" alignment="3" max="32767" attributes="0"/>
+                  <Component id="roleTF" alignment="3" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="certificationLabel" alignment="3" max="32767" attributes="0"/>
+                  <Component id="certificationTF" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="savebtn" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="cancelbtn" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="102" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="addEmployeeTitle">
+      <Properties>
+        <Property name="horizontalAlignment" type="int" value="0"/>
+        <Property name="text" type="java.lang.String" value="Add Employee"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="employeeLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Employee ID:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="nameLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Name:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="contactinfoLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Contact Info:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="armedLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Armed:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="roleLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Role:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="certificationLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Certification"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="empIdTF">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="empIdTFActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="nameTF">
+    </Component>
+    <Component class="javax.swing.JTextField" name="contactInfoTF">
+    </Component>
+    <Component class="javax.swing.JTextField" name="armedTF">
+    </Component>
+    <Component class="javax.swing.JTextField" name="roleTF">
+    </Component>
+    <Component class="javax.swing.JTextField" name="certificationTF">
+    </Component>
+    <Component class="javax.swing.JButton" name="savebtn">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Save"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="savebtnMouseClicked"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="savebtnActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="cancelbtn">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Cancel"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="cancelbtnActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="hourlyRateLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Hourly Rate:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="hourlyRateTF">
+    </Component>
+  </SubComponents>
+</Form>
